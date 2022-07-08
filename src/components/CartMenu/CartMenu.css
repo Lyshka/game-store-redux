@@ -1,0 +1,11 @@
+.cartMenu {
+	@apply absolute top-[30px] left-[-300px] bg-[#242529] w-[400px] py-[10px] px-5 z-10 rounded-[15px];
+}
+
+.cartMenu__arrange {
+	@apply mt-5 py-5 px-0 border-t border-l-amber-50;
+}
+
+.cartMenu__total-price {
+	@apply flex justify-between mb-[15px];
+}

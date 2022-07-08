@@ -1,0 +1,7 @@
+.cartItem {
+	@apply w-full py-[10px] px-0 flex justify-between items-center;
+}
+
+.cartItem__price {
+	@apply flex items-center;
+}

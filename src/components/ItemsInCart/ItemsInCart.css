@@ -1,0 +1,3 @@
+.itemsInCart {
+	@apply absolute w-5 h-5 bg-[#FF6347] rounded-[15px] text-[15px] flex justify-center items-center text-white z-10 left-[15px] top-[-10px];
+}
