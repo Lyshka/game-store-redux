@@ -1,0 +1,27 @@
+.gameItem {
+	@apply no-underline text-white w-80 h-[320px] bg-[#242529] rounded-[15px] cursor-pointer relative;
+}
+
+.gameItem {
+	@apply mb-[30px] mr-[50px];
+}
+
+.gameItem__title {
+	@apply text-lg font-bold;
+}
+
+.gameItem__genre {
+	@apply mt-[10px] flex flex-wrap;
+}
+
+.gameItem__details {
+	@apply py-[10px] px-5;
+}
+
+.gameItem__description {
+	@apply mt-[10px] text-sm;
+}
+
+.gameItem__buy {
+	@apply absolute right-0 bottom-[-12px]
+}

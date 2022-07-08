@@ -1,0 +1,19 @@
+.btn {
+	@apply rounded-[15px] text-white border-none p-[5px] cursor-pointer;
+}
+
+.btn--primary {
+	@apply bg-[#5558ED];
+}
+
+.btn--secondary {
+	@apply bg-[#505254];
+}
+
+.btn--small {
+	@apply text-sm;
+}
+
+.btn--medium {
+	@apply text-lg;
+}

@@ -1,0 +1,3 @@
+.homePage {
+	@apply flex flex-wrap justify-center;
+}

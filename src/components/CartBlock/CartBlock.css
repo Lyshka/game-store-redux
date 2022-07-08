@@ -1,0 +1,11 @@
+.cartBlock {
+	@apply flex items-center relative;
+}
+
+.cartBlock__total-price {
+	@apply ml-[15px] text-lg font-bold;
+}
+
+.cart-block__icon {
+	@apply cursor-pointer relative;
+}

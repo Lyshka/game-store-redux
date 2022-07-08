@@ -1,0 +1,3 @@
+.gameGenre {
+	@apply bg-[#505254] py-[2px] px-[5px] text-[13px] rounded-[10px] mr-[7px];
+}

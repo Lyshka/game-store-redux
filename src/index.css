@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-[#191A1C];
+	}
+}
+
+.App {
+	@apply py-0 px-10 text-white max-w-[1200px] my-0 mx-auto;
+}

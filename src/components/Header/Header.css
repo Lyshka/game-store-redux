@@ -1,0 +1,15 @@
+.header {
+	@apply h-20 flex items-center justify-between mb-[30px];
+}
+
+.wrapper {
+	@apply flex grow;
+}
+
+.header__store-title {
+	@apply text-white no-underline text-2xl font-bold;
+}
+
+.header__cart-btn-wrapper {
+	@apply justify-end;
+}
