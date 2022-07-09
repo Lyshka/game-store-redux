@@ -1,0 +1,27 @@
+.gamePage__content {
+	@apply flex;
+}
+
+.gamePage__left {
+	@apply w-[70%];
+}
+
+.gamePage__right {
+	@apply w-[30%];
+}
+
+.gamePage__buy-game {
+	@apply flex justify-end mt-5;
+}
+
+.gamePage__title {
+	@apply text-4xl mb-5 font-bold;
+}
+
+.gamePage__description {
+	@apply mt-5;
+}
+
+.secondary-text {
+	@apply text-[#505254] my-3;
+}

@@ -1,0 +1,15 @@
+.orderItem {
+	@apply flex items-center justify-between mb-[30px];
+}
+
+.orderItem__cover {
+	@apply w-[200px] mr-[30px] cursor-pointer;
+}
+
+.orderItem__title {
+	@apply text-2xl font-bold px-2;
+}
+
+.orderItem__price {
+	@apply text-2xl font-bold;
+}
