@@ -1,4 +1,3 @@
-import React from "react";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Header from "./components/Header/Header";
 import HomePage from "./pages/HomePage/HomePage";
@@ -12,7 +11,7 @@ const App = () => {
 	return (
 		<div className="App">
 			<Provider store={store}>
-				<PersistGate loading={null} persistor={persistor}>
+				<PersistGate loading={<h1>Loading</h1>} persistor={persistor}>
 					<BrowserRouter>
 						<Header />
 						<Routes>
